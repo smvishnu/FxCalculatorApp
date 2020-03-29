@@ -1,0 +1,20 @@
+2020-03-26 01:08:34,516 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 2940 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-26 01:08:34,516 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-26 01:08:34,516 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-26 01:08:34,806 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.568 seconds (JVM running for 1.053)
+2020-03-26 01:08:34,807 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of FxCalculatorAppApplication
+2020-03-26 01:51:09,108 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 10656 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-26 01:51:09,108 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-26 01:51:09,108 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-26 01:51:09,466 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.638 seconds (JVM running for 1.126)
+2020-03-26 01:51:09,481 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of FxCalculatorAppApplication
+2020-03-26 02:00:37,848 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 8752 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-26 02:00:37,849 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-26 02:00:37,849 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-26 02:00:38,180 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.633 seconds (JVM running for 1.103)
+2020-03-26 02:00:38,180 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-26 02:00:51,258 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 15544 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-26 02:00:51,259 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-26 02:00:51,259 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-26 02:00:51,557 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.568 seconds (JVM running for 1.024)
+2020-03-26 02:00:51,558 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 

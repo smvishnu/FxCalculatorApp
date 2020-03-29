@@ -1,0 +1,983 @@
+2020-03-29 00:09:34,230 INFO com.fxcalculator.service.FxServiceTest [main] Starting FxServiceTest on Reuben-PC with PID 6956 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:09:34,289 DEBUG com.fxcalculator.service.FxServiceTest [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:09:34,289 INFO com.fxcalculator.service.FxServiceTest [main] The following profiles are active: prod
+2020-03-29 00:09:34,388 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'fxService', defined in com.fxcalculator.service.FxServiceTest$FxServiceTestContextConfiguration, could not be registered. A bean with that name has already been defined in file [E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\classes\com\fxcalculator\service\FxService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-03-29 00:09:34,417 INFO com.fxcalculator.service.FxServiceTest [main] Starting FxServiceTest on Reuben-PC with PID 6956 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:09:34,417 DEBUG com.fxcalculator.service.FxServiceTest [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:09:34,417 INFO com.fxcalculator.service.FxServiceTest [main] The following profiles are active: prod
+2020-03-29 00:09:34,465 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'fxService', defined in com.fxcalculator.service.FxServiceTest$FxServiceTestContextConfiguration, could not be registered. A bean with that name has already been defined in file [E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\classes\com\fxcalculator\service\FxService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-03-29 00:09:34,467 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@fb5821] to prepare test instance [com.fxcalculator.service.FxServiceTest@1ff2185]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'fxService' defined in com.fxcalculator.service.FxServiceTest$FxServiceTestContextConfiguration: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=fxServiceTest.FxServiceTestContextConfiguration; factoryMethodName=fxService; initMethodName=null; destroyMethodName=(inferred); defined in com.fxcalculator.service.FxServiceTest$FxServiceTestContextConfiguration] for bean 'fxService': There is already [Generic bean: class [com.fxcalculator.service.FxService]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\classes\com\fxcalculator\service\FxService.class]] bound.
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:927)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:287)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 66 common frames omitted
+2020-03-29 00:09:41,670 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Starting FxCalculatorAppApplicationTests on Reuben-PC with PID 7748 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:09:41,670 DEBUG com.fxcalculator.FxCalculatorAppApplicationTests [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:09:41,670 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] The following profiles are active: prod
+2020-03-29 00:09:41,988 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Started FxCalculatorAppApplicationTests in 0.548 seconds (JVM running for 1.334)
+2020-03-29 00:09:41,989 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:10:50,599 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Starting FxCalculatorAppApplicationTests on Reuben-PC with PID 13164 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:10:50,600 DEBUG com.fxcalculator.FxCalculatorAppApplicationTests [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:10:50,600 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] The following profiles are active: prod
+2020-03-29 00:10:50,900 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Started FxCalculatorAppApplicationTests in 0.567 seconds (JVM running for 1.266)
+2020-03-29 00:10:50,900 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:11:04,108 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 00:11:04,108 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 00:11:04,108 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 00:11:04,133 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@162c41e] to prepare test instance [com.fxcalculator.FxCalculatorAppApplicationTests@1faa6af]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.fxcalculator.FxCalculatorAppApplicationTests': Unsatisfied dependency expressed through field 'fxServiceTest'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Unknown Source)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 common frames omitted
+2020-03-29 00:12:23,451 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a729f] to prepare test instance [com.fxcalculator.FxCalculatorAppApplicationTests@129b4ee]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.fxcalculator.FxCalculatorAppApplicationTests': Unsatisfied dependency expressed through field 'fxServiceTest'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 common frames omitted
+2020-03-29 00:12:29,814 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Starting FxCalculatorAppApplicationTests on Reuben-PC with PID 12924 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:12:29,814 DEBUG com.fxcalculator.FxCalculatorAppApplicationTests [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:12:29,814 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] The following profiles are active: prod
+2020-03-29 00:12:30,127 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Started FxCalculatorAppApplicationTests in 0.578 seconds (JVM running for 1.375)
+2020-03-29 00:12:30,127 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:14:01,694 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a729f] to prepare test instance [com.fxcalculator.FxCalculatorAppApplicationTests@129b4ee]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.fxcalculator.FxCalculatorAppApplicationTests': Unsatisfied dependency expressed through field 'fxServiceTest'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 common frames omitted
+2020-03-29 00:14:40,890 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Starting FxCalculatorAppApplicationTests on Reuben-PC with PID 5412 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:14:40,891 DEBUG com.fxcalculator.FxCalculatorAppApplicationTests [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:14:40,891 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] The following profiles are active: prod
+2020-03-29 00:14:41,199 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Started FxCalculatorAppApplicationTests in 0.672 seconds (JVM running for 1.593)
+2020-03-29 00:14:41,200 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:22:14,070 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5a729f] to prepare test instance [com.fxcalculator.FxCalculatorAppApplicationTests@129b4ee]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.fxcalculator.FxCalculatorAppApplicationTests': Unsatisfied dependency expressed through field 'fxServiceTest'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 common frames omitted
+2020-03-29 00:22:20,011 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Starting FxCalculatorAppApplicationTests on Reuben-PC with PID 9068 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:22:20,011 DEBUG com.fxcalculator.FxCalculatorAppApplicationTests [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:22:20,011 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] The following profiles are active: prod
+2020-03-29 00:22:20,329 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Started FxCalculatorAppApplicationTests in 0.555 seconds (JVM running for 1.242)
+2020-03-29 00:22:20,330 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:22:38,416 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@11669c0] to prepare test instance [com.fxcalculator.FxCalculatorAppApplicationTests@1218417]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.fxcalculator.FxCalculatorAppApplicationTests': Unsatisfied dependency expressed through field 'fxServiceTest'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 common frames omitted
+2020-03-29 00:22:59,590 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Starting FxCalculatorAppApplicationTests on Reuben-PC with PID 912 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:22:59,590 DEBUG com.fxcalculator.FxCalculatorAppApplicationTests [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:22:59,590 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] The following profiles are active: prod
+2020-03-29 00:22:59,894 INFO com.fxcalculator.FxCalculatorAppApplicationTests [main] Started FxCalculatorAppApplicationTests in 0.546 seconds (JVM running for 1.26)
+2020-03-29 00:22:59,895 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:24:41,256 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@11669c0] to prepare test instance [com.fxcalculator.FxCalculatorAppApplicationTests@1218417]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.fxcalculator.FxCalculatorAppApplicationTests': Unsatisfied dependency expressed through field 'fxServiceTest'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.fxcalculator.unit.FxServiceTest' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 69 common frames omitted
+2020-03-29 00:24:41,309 INFO com.fxcalculator.unit.FxServiceTest [main] Starting FxServiceTest on Reuben-PC with PID 912 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:24:41,309 DEBUG com.fxcalculator.unit.FxServiceTest [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:24:41,310 INFO com.fxcalculator.unit.FxServiceTest [main] The following profiles are active: prod
+2020-03-29 00:24:41,364 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'fxService', defined in com.fxcalculator.unit.FxServiceTest$FxServiceTestContextConfiguration, could not be registered. A bean with that name has already been defined in file [E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\classes\com\fxcalculator\service\FxService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-03-29 00:24:41,396 INFO com.fxcalculator.unit.FxServiceTest [main] Starting FxServiceTest on Reuben-PC with PID 912 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:24:41,396 DEBUG com.fxcalculator.unit.FxServiceTest [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:24:41,396 INFO com.fxcalculator.unit.FxServiceTest [main] The following profiles are active: prod
+2020-03-29 00:24:41,441 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'fxService', defined in com.fxcalculator.unit.FxServiceTest$FxServiceTestContextConfiguration, could not be registered. A bean with that name has already been defined in file [E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\classes\com\fxcalculator\service\FxService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-03-29 00:24:41,441 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@a3ab8f] to prepare test instance [com.fxcalculator.unit.FxServiceTest@168a49c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1380)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'fxService' defined in com.fxcalculator.unit.FxServiceTest$FxServiceTestContextConfiguration: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=fxServiceTest.FxServiceTestContextConfiguration; factoryMethodName=fxService; initMethodName=null; destroyMethodName=(inferred); defined in com.fxcalculator.unit.FxServiceTest$FxServiceTestContextConfiguration] for bean 'fxService': There is already [Generic bean: class [com.fxcalculator.service.FxService]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\classes\com\fxcalculator\service\FxService.class]] bound.
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:927)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:287)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:126)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 66 common frames omitted
+2020-03-29 00:59:02,333 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 6740 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:59:02,335 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:59:02,335 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 00:59:02,639 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.575 seconds (JVM running for 1.067)
+2020-03-29 00:59:02,640 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:59:12,247 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 00:59:12,248 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 00:59:12,248 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 00:59:25,668 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 3820 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 00:59:25,669 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 00:59:25,669 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 00:59:25,967 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.569 seconds (JVM running for 1.08)
+2020-03-29 00:59:25,968 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 00:59:32,952 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 00:59:32,952 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 00:59:32,952 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:07:59,234 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 13624 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:07:59,235 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:07:59,235 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:07:59,635 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.826 seconds (JVM running for 1.548)
+2020-03-29 01:07:59,636 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:08:02,367 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:08:02,368 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:08:02,368 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:08:02,368 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 7 , matrix Value = USD
+2020-03-29 01:37:20,420 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 7676 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:37:20,422 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:37:20,422 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:37:20,786 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.731 seconds (JVM running for 1.074)
+2020-03-29 01:37:20,787 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:37:37,056 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:37:37,056 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:37:37,056 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:37:37,056 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 10 , matrix Value = D
+2020-03-29 01:37:42,724 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 15960 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:37:42,726 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:37:42,726 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:37:43,097 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.888 seconds (JVM running for 1.386)
+2020-03-29 01:37:43,097 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:37:50,117 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:37:50,117 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:37:50,133 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at com.fxcalculator.FxCalculatorAppApplication.main(FxCalculatorAppApplication.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.fxcalculator.service.FxService.checkCurrencyAvailability(FxService.java:77)
+	at com.fxcalculator.FxCalculatorAppApplication.run(FxCalculatorAppApplication.java:53)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	... 11 common frames omitted
+2020-03-29 01:37:56,311 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 208 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:37:56,314 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:37:56,314 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:37:56,807 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.966 seconds (JVM running for 1.253)
+2020-03-29 01:37:56,807 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:38:09,573 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:38:09,573 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:38:14,449 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 3688 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:38:14,451 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:38:14,451 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:38:14,791 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.701 seconds (JVM running for 0.974)
+2020-03-29 01:38:14,792 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:38:31,317 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:38:31,317 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:38:35,217 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 1200 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:38:35,219 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:38:35,219 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:38:35,703 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 1.074 seconds (JVM running for 1.59)
+2020-03-29 01:38:35,703 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:38:53,397 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:38:53,398 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:38:58,886 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 17336 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:38:58,887 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:38:58,888 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:38:59,221 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.692 seconds (JVM running for 0.999)
+2020-03-29 01:38:59,222 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:39:07,565 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:39:07,565 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:39:14,706 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 17024 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:39:14,708 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:39:14,708 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:39:15,042 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.706 seconds (JVM running for 0.985)
+2020-03-29 01:39:15,043 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:39:24,733 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:39:24,734 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:39:24,734 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:39:24,735 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 10 , matrix Value = D
+2020-03-29 01:39:27,639 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 2116 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:39:27,640 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:39:27,641 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:39:27,966 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.691 seconds (JVM running for 0.999)
+2020-03-29 01:39:27,966 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:39:36,035 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:39:36,035 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:39:36,035 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:39:36,035 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 0 , matrix Value = 1:1
+2020-03-29 01:39:41,148 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 10244 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:39:41,150 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:39:41,150 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:39:41,547 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.755 seconds (JVM running for 1.034)
+2020-03-29 01:39:41,548 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:39:46,957 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:39:46,957 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:39:46,958 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:39:46,958 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 4 , matrix Value = USD
+2020-03-29 01:39:54,685 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 15760 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:39:54,687 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:39:54,687 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:39:55,239 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 1.145 seconds (JVM running for 1.589)
+2020-03-29 01:39:55,241 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:40:05,725 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:40:05,726 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:40:05,726 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:40:05,727 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 7 , term Index = 10 , matrix Value = Inv
+2020-03-29 01:40:16,535 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 5624 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 01:40:16,537 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 01:40:16,537 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 01:40:16,877 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.699 seconds (JVM running for 1.001)
+2020-03-29 01:40:16,877 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 01:40:26,735 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 01:40:26,736 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 01:40:26,736 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 01:40:26,737 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 7 , matrix Value = USD
+2020-03-29 02:05:49,131 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 10644 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 02:05:49,131 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 02:05:49,131 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 02:05:49,474 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.689 seconds (JVM running for 0.956)
+2020-03-29 02:05:49,474 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 02:05:53,949 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 02:05:53,949 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 02:05:53,949 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 02:05:53,950 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 10 , matrix Value = D
+2020-03-29 19:07:48,201 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication on Reuben-PC with PID 140 (started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 19:07:48,202 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 19:07:48,202 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 19:07:48,563 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.749 seconds (JVM running for 1.484)
+2020-03-29 19:07:48,564 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 21:57:30,211 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 7512 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 21:57:30,227 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 21:57:30,227 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 21:57:30,555 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.679 seconds (JVM running for 0.976)
+2020-03-29 21:57:30,555 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 21:57:35,458 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 21:57:35,458 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 21:57:35,458 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 21:57:35,458 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 10 , matrix Value = D
+2020-03-29 21:57:35,458 DEBUG com.fxcalculator.service.FxService [main] convertCurrencyDoubletoString() of FxService 
+2020-03-29 21:57:38,606 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 8876 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 21:57:38,606 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 21:57:38,606 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 21:57:38,939 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.673 seconds (JVM running for 0.964)
+2020-03-29 21:57:38,940 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:01:05,095 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 12716 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:01:05,095 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:01:05,095 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:01:05,423 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.675 seconds (JVM running for 0.975)
+2020-03-29 22:01:05,423 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:01:18,827 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:01:18,827 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:01:28,857 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 2440 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:01:28,858 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:01:28,859 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:01:29,182 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.683 seconds (JVM running for 0.976)
+2020-03-29 22:01:29,182 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:01:36,610 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:01:36,610 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:01:49,519 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 10912 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:01:49,519 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:01:49,519 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:01:49,847 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.69 seconds (JVM running for 0.983)
+2020-03-29 22:01:49,847 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:02:02,683 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:02:02,683 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:02:13,555 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 10348 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:02:13,555 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:02:13,555 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:02:13,883 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.681 seconds (JVM running for 0.98)
+2020-03-29 22:02:13,883 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:02:19,764 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:02:19,764 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:02:26,718 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 16772 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:02:26,718 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:02:26,718 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:02:27,113 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.743 seconds (JVM running for 1.038)
+2020-03-29 22:02:27,113 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:02:33,962 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:02:33,963 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:02:33,963 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 22:02:33,964 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 10 , matrix Value = D
+2020-03-29 22:02:33,964 DEBUG com.fxcalculator.service.FxService [main] convertCurrencyDoubletoString() of FxService 
+2020-03-29 22:02:42,019 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 15304 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:02:42,020 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:02:42,020 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:02:42,355 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.684 seconds (JVM running for 0.981)
+2020-03-29 22:02:42,355 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:02:46,083 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:02:46,083 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:02:46,084 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 22:02:46,084 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 0 , matrix Value = 1:1
+2020-03-29 22:02:46,084 DEBUG com.fxcalculator.service.FxService [main] convertCurrencyDoubletoString() of FxService 
+2020-03-29 22:02:53,243 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 13248 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:02:53,244 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:02:53,244 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:02:53,577 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.681 seconds (JVM running for 0.939)
+2020-03-29 22:02:53,577 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:02:58,221 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:02:58,221 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:02:58,221 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 22:02:58,221 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 4 , matrix Value = USD
+2020-03-29 22:02:58,221 DEBUG com.fxcalculator.service.FxService [main] convertCurrencyDoubletoString() of FxService 
+2020-03-29 22:03:04,046 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 14232 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:03:04,048 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:03:04,048 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:03:04,374 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.677 seconds (JVM running for 0.971)
+2020-03-29 22:03:04,374 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:03:08,451 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:03:08,451 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:03:08,452 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 22:03:08,452 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 7 , term Index = 10 , matrix Value = Inv
+2020-03-29 22:03:08,452 DEBUG com.fxcalculator.service.FxService [main] convertCurrencyDoubletoString() of FxService 
+2020-03-29 22:03:45,726 INFO com.fxcalculator.FxCalculatorAppApplication [main] Starting FxCalculatorAppApplication v0.0.1-SNAPSHOT on Reuben-PC with PID 392 (E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp\target\FxCalculatorApp-0.0.1-SNAPSHOT.jar started by Vishnukanth in E:\Poruki\Job Search\ANZ\wkspace\FxCalculatorApp)
+2020-03-29 22:03:45,726 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-29 22:03:45,726 INFO com.fxcalculator.FxCalculatorAppApplication [main] The following profiles are active: prod
+2020-03-29 22:03:46,072 INFO com.fxcalculator.FxCalculatorAppApplication [main] Started FxCalculatorAppApplication in 0.675 seconds (JVM running for 0.963)
+2020-03-29 22:03:46,073 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] run() of main class ==> FxCalculatorAppApplication 
+2020-03-29 22:03:50,573 DEBUG com.fxcalculator.service.FxService [main] validateFxConversionQuery() of FxService 
+2020-03-29 22:03:50,589 DEBUG com.fxcalculator.service.FxService [main] checkCurrencyAvailability() of FxService 
+2020-03-29 22:03:50,589 DEBUG com.fxcalculator.service.FxService [main] calculateFx() of FxService 
+2020-03-29 22:03:50,589 DEBUG com.fxcalculator.FxCalculatorAppApplication [main] based Index = 0 , term Index = 7 , matrix Value = USD
+2020-03-29 22:03:50,589 DEBUG com.fxcalculator.service.FxService [main] convertCurrencyDoubletoString() of FxService 
